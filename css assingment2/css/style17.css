@@ -1,0 +1,135 @@
+.box{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+}
+.box1{
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    float:left;
+}
+.box2{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 60px;
+      
+}
+.box3{
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 110px;    
+}
+
+.box4{
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 160px;
+}
+.box5{
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 210px;
+      
+}
+.box6{
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 260px;    
+}
+
+.box7{
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 310px;
+    
+}
+.box8{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 460px;
+    
+    clear{clear: both;
+    }
+    
+    .box9
+    {
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    float:left;
+}
+.box10{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 60px;
+      
+}
+.box11{
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 110px;    
+}
+
+.box12{
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 160px;
+}
+.box13{
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 210px;
+      
+}
+.box14{
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 260px;    
+}
+
+.box15{
+    background-color:gray;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 310px;
+    
+}
+.box16{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 460px;
+    
+    .clear{clear: both;
+    }  
+    
+
+
+

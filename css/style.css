@@ -1,0 +1,32 @@
+.header{
+    background-color: gray;
+    height: 100px;
+    
+}
+.hd{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 10px;
+}
+.left{
+    background-color: gainsboro;
+    text-decoration: none;
+    height: 400px;
+    float: left;
+    
+}
+.right{
+    background-color: ghostwhite;
+    height: 400px;
+    
+    
+    
+}
+.ft{
+    background-color: gray;
+    height: 100px;
+    
+    
+    
+}

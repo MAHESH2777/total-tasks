@@ -1,0 +1,44 @@
+.container{
+    background-color: beige;
+    height: 500px;
+    
+    
+}
+
+
+
+
+.left{
+    background-color: aqua;
+    height: 500px;
+    float: left;
+    
+    
+    
+}
+.row1{
+    background-color: brown;
+    height: 100px;
+    
+    
+    
+    
+}
+
+.row2{
+    background-color: orange;
+    height: 300px;
+    
+    
+    
+    
+}
+
+.row3{
+    background-color: deeppink;
+    height: 100px;
+    
+    
+    
+    
+}

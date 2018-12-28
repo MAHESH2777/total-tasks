@@ -1,0 +1,25 @@
+.header{
+    background-color: blue;
+    height: 100px;
+    
+}
+.col1{
+    background-color: aqua;
+    height: 300px;
+}
+
+.col2{
+    background-color: chartreuse;
+    height: 300px;
+}
+
+.col3{
+    background-color: deeppink;
+    height: 300px;
+}
+.footer{
+    background-color: brown;
+    height: 100px;
+    
+    
+}

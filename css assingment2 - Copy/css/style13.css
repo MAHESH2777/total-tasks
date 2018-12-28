@@ -1,0 +1,30 @@
+.header{
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+    
+}
+.col1{
+    background-color:orangered;
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+.col2{
+    background-color:white;
+    width: 20%;
+    height: 300px;
+    float: left;
+}
+.col3{
+    background-color: green;
+    width: 20%;
+    height: 300px;
+    float: right;
+}
+.footer{
+    background-color:cadetblue;
+    width: 100%;
+    height: 400px;
+    
+}

@@ -1,0 +1,23 @@
+.header{
+    
+    background-color: aliceblue;
+    height: 100px;
+    display: inline;
+}
+
+
+
+
+
+.l1{
+    background-color: aqua;
+    height: 100px;
+    
+}
+.r1{
+    background-color: blue;
+    height: 100px;
+    float: right;
+    
+    
+}

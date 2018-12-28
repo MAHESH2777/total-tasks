@@ -1,0 +1,36 @@
+.nav{
+    background-color: blueviolet;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+.row1{
+    background-color:blue;
+    width: 70%;
+    height: 100px;
+    float: right;
+    
+}
+.row2{
+    background-color:green;
+    width: 70%;
+    height: 300px;
+    float: right;
+    
+}
+
+.row3{
+    background-color:darkgoldenrod;
+    width: 70%;
+    height: 100px;
+    float: right;
+    
+}
+
+.row4{
+    background-color:pink;
+    width: 70%;
+    height: 100px;
+    float: right;
+    
+}

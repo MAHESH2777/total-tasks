@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <title>Carousel in Bootstrap4</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Carousel in Bootstrap4</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<div class="container mt-5">
+    <!--########################START HERE#########################-->
+
+    <!-- SIMPLE SLIDER -->
+    <h3>SIMPLE SLIDER</h3>
+    <div class="carousel slide" id="simpleSlider" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider2.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" class="w-100 d-block">
+            </div>
+        </div>
+    </div>
+
+    <!-- SLIDER WITH CONTROLS -->
+    <h3>SLIDER WITH CONTROLS</h3>
+    <div class="carousel slide" id="controlSlider" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider2.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" class="w-100 d-block">
+            </div>
+        </div>
+        <a class="carousel-control-prev" data-slide="prev" href="#controlSlider">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" data-slide="next" href="#controlSlider">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+    <!-- SLIDER WITH INDICATORS -->
+    <h3>SLIDER WITH INDICATORS</h3>
+    <div class="carousel slide" id="IndicatorSlider" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#IndicatorSlider" data-slide-to="0"></li>
+            <li data-target="#IndicatorSlider" data-slide-to="1"></li>
+            <li data-target="#IndicatorSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider2.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" class="w-100 d-block">
+            </div>
+        </div>
+        <a class="carousel-control-prev" data-slide="prev" href="#IndicatorSlider">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" data-slide="next" href="#IndicatorSlider">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+    <!-- SLIDER WITH CAPTIONS -->
+    <h3>SLIDER WITH CAPTIONS</h3>
+    <div class="carousel slide" id="CaptionSlider" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#CaptionSlider" data-slide-to="0"></li>
+            <li data-target="#CaptionSlider" data-slide-to="1"></li>
+            <li data-target="#CaptionSlider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider1.jpg" class="w-100 d-block">
+                <div class="carousel-caption">
+                    <h1>Slide 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor, error ipsam iusto natus nihil perferendis placeat quidem soluta vero!</p>
+                    <a class="btn btn-success">Read More</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider2.jpg" class="w-100 d-block">
+                <div class="carousel-caption">
+                    <h1>Slide 2</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor, error ipsam iusto natus nihil perferendis placeat quidem soluta vero!</p>
+                    <a class="btn btn-warning">Read More</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider3.jpg" class="w-100 d-block">
+                <div class="carousel-caption">
+                    <h1>Slide 3</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolor, error ipsam iusto natus nihil perferendis placeat quidem soluta vero!</p>
+                    <a class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" data-slide="prev" href="#CaptionSlider">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" data-slide="next" href="#CaptionSlider">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+  </div>
+
+  <div style="margin-top:500px;"></div>
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+<script>
+    $('.carousel').carousel({
+        interval:2000,
+        pause:'hover'
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.header{
+    
+    
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+    
+}
+.left
+{
+    background-color:hotpink;
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+
+
+.row1
+{
+    background-color:red;
+    width: 70%;
+    height: 300px;
+    float:right;
+}
+
+
+.row2
+{
+    background-color:dimgrey;
+    width: 70%;
+    height: 200px;
+    float: right;
+}
+
+
+.footer
+{
+    background-color:skyblue;
+    width: 100%;
+    height: 600px;
+}
+

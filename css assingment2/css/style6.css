@@ -1,0 +1,39 @@
+.header{
+    
+    background-color: darkseagreen;
+    width: 100%;
+    height: 100px;
+    
+}
+.left{
+    
+    background-color: black;
+    width: 27%;
+    height: 600px;
+    display:inline-block;
+    
+    
+}.col1{
+    
+    background-color:palevioletred;
+    width: 50%;
+    height: 398px;
+    display:inline-block;
+    float:right;
+}.col2{
+    
+    background-color: yellowgreen;
+    width:23%;
+    height: 398px;
+     display:inline-block;
+    float:right;
+}
+
+.footer{
+    
+    background-color:blue;
+    width: 73%;
+    height: 200px;
+    float: right;
+    
+}

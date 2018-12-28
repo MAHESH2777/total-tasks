@@ -1,0 +1,32 @@
+.left{
+    background-color: azure;
+    width: 20%;
+    height: 400px;
+    float: left;
+    
+
+}
+.row1{
+    background-color: green;
+    width: 79%;
+    height: 100px;
+    float: right;
+    
+
+}
+.row2{
+    background-color: pink;
+    width: 79%;
+    height: 200px;
+    float: right;
+    
+
+}
+.row3{
+    background-color: green;
+    width: 79%;
+    height: 100px;
+    float: right;
+    
+
+}
